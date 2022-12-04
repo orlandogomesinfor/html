@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.div1 {
+  position: static;
+  top:200px;
+  left:200px;
+  width: 900px;
+  height: 300px;
+  border: 1px solid blue;
+}
+
+.div2 {
+  position: absolute;
+  left:400px;
+  top:0px;
+  width: 300px;
+  height: 100px;  
+ /* padding: 50px; */
+  border: 1px solid red;
+}
+
+.div3 {
+  position: absolute; 
+  left:5px;
+  top:20px;
+  width: 80px; 
+  height: 40px;  
+ /* padding: 50px; */
+  border: 1px solid red;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Without box-sizing</h2>
+
+<div class="div1"><h2>Teste 1</h2>- This div is smaller (width is 300px and height is 100px).</div>
+<br>
+
+
+<div class="div2">Teste 2 <BR>This div is bigger (width is also 300px and height is 100px).
+
+<br>teste 3 <br> teste 4 <br> <div class="div3">aaaaaaaaaaa</div>aaaaaaaaaaa</div>
+
+</body>
+</html>
